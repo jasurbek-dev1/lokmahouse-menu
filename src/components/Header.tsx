@@ -65,7 +65,7 @@ export default function Header({
 
           {/* LOGO */}
           <button
-            className="header-brand"
+            className="header-brand flex items-center gap-3"
             onClick={() =>
               window.scrollTo({
                 top: 0,
@@ -86,6 +86,35 @@ export default function Header({
                 duration-300
               "
             />
+
+            {/* BRAND TEXT */}
+            <div className="flex flex-col text-left leading-none">
+              <span
+                className="
+                  text-[20px]
+                  sm:text-[24px]
+                  md:text-[28px]
+                  font-extrabold
+                  tracking-wide
+                  text-red-600
+                "
+              >
+                Lokma House
+              </span>
+
+              <span
+                className="
+                  text-[10px]
+                  sm:text-[12px]
+                  md:text-[13px]
+                  text-gray-500
+                  font-medium
+                  mt-1
+                "
+              >
+                Sweet & Dessert
+              </span>
+            </div>
           </button>
 
           {/* DESKTOP MENU */}
@@ -145,12 +174,13 @@ export default function Header({
                 {s.title}
               </button>
             ))}
+
             <button
-  onClick={() => scrollTo("contact")}
-  className="mobile-nav-link"
->
-  Боғланиш
-</button>
+              onClick={() => scrollTo("contact")}
+              className="mobile-nav-link"
+            >
+              Боғланиш
+            </button>
           </nav>
         </div>
       )}
