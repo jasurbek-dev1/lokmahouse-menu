@@ -27,9 +27,9 @@ export const menuSections: MenuSection[] = [
         name: "Локма с шоколадом",
         image: "/lokma1.PNG",
         sizes: [
-          { size: "8 шариков", price: 48000 },
-          { size: "12 шариков", price: 64000 },
-          { size: "16 шариков", price: 76000 },
+          { size: "8 шариков", price: 50000 },
+          { size: "12 шариков", price: 65000 },
+          { size: "16 шариков", price: 75000 },
         ],
       },
       {
@@ -37,9 +37,9 @@ export const menuSections: MenuSection[] = [
         name: "Локма с фисташки",
         image: "/lokma2.PNG",
         sizes: [
-          { size: "8 шариков", price: 58000 },
-          { size: "12 шариков", price: 78000 },
-          { size: "16 шариков", price: 88000 },
+          { size: "8 шариков", price: 60000 },
+          { size: "12 шариков", price: 80000 },
+          { size: "16 шариков", price: 90000 },
         ],
       },
       {
@@ -47,9 +47,9 @@ export const menuSections: MenuSection[] = [
         name: "Локма фруктовый",
         image: "/lokma3.PNG",
         sizes: [
-          { size: "8 шариков", price: 58000 },
-          { size: "12 шариков", price: 78000 },
-          { size: "16 шариков", price: 88000 },
+          { size: "8 шариков", price: 60000 },
+          { size: "12 шариков", price: 80000 },
+          { size: "16 шариков", price: 90000 },
         ],
       },
     ],
@@ -62,13 +62,13 @@ export const menuSections: MenuSection[] = [
       {
         id: "v1",
         name: "Фондю",
-        price: 65000,
+        price: 80000,
         image: "/fondyu.PNG",
       },
       {
         id: "v2",
         name: '"Fruit" ассорти',
-        price: 55000,
+        price: 100000,
         image: "/fruit.PNG",
       },
     ],
@@ -81,19 +81,19 @@ export const menuSections: MenuSection[] = [
       {
         id: "s1",
         name: "Гонконгские вафли с шоколадом",
-        price: 30000,
+        price: 35000,
         image: "/vafli1.PNG",
       },
       {
         id: "s2",
         name: "Гонконгские вафли с бананом",
-        price: 35000,
+        price: 45000,
         image: "/wafli2.jpg",
       },
       {
         id: "s3",
         name: "Гонконгские вафли с клубникой",
-        price: 55000,
+        price: 60000,
         image: "/wafli3.jpg",
       },
       {
@@ -112,19 +112,19 @@ export const menuSections: MenuSection[] = [
       {
         id: "f1",
         name: "Бельгийские вафли с шоколадом",
-        price: 35000,
+        price: 40000,
         image: "/wafli5.jpg",
       },
       {
         id: "f2",
         name: "Бельгийские вафли с бананом",
-        price: 40000,
+        price: 45000,
         image: "/wafli6.jpg",
       },
       {
         id: "f3",
         name: "Бельгийские вафли с клубникой",
-        price: 55000,
+        price: 60000,
         image: "/wafli7.jpg",
       },
       {
@@ -142,42 +142,27 @@ export const menuSections: MenuSection[] = [
     items: [
       {
         id: "i1",
-        name: "Кофе американо",
+        name: "Кофе американо / Черный кофе",
         price: 15000,
         image: "",
       },
       {
         id: "i2",
-        name: "Капучино",
-        price: 20000,
+        name: "Молочный кофе",
+        price: 15000,
         image: "",
       },
       {
         id: "i3",
-        name: "Латте",
-        price: 22000,
-        image:
-          "https://images.pexels.com/photos/324014/pexels-photo-324014.jpeg?auto=compress&cs=tinysrgb&w=400",
+        name: "Чай зеленый",
+        price: 12000,
+        image: "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=400",
       },
       {
         id: "i4",
-        name: "Чай яшил",
-        price: 10000,
-        image:
-          "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=400",
-      },
-      {
-        id: "i5",
-        name: "Смузи",
-        price: 18000,
-        image:
-          "https://images.pexels.com/photos/5946631/pexels-photo-5946631.jpeg?auto=compress&cs=tinysrgb&w=400",
-      },
-      {
-        id: "i6",
-        name: "Лимонад",
-        price: 12000,
-        image: "",
+        name: "Смузи (Манго-маракуйя / Клубника-банан / Киви-яблоко / Ягодный)",
+        price: 30000,
+        image: "https://images.pexels.com/photos/5946631/pexels-photo-5946631.jpeg?auto=compress&cs=tinysrgb&w=400",
       },
     ],
   },
